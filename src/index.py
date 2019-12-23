@@ -2,10 +2,10 @@ from flask import Flask, render_template, request, url_for, redirect, flash
 from flask_mysqldb import MySQL
 app = Flask(__name__)
 #MySQL Connection
-app.config['MYSQL_HOST'] = 'bckottr9vtzfbzggykmv-mysql.services.clever-cloud.com'
-app.config['MYSQL_USER'] = 'uixz5lqtqfmzuws7'
-app.config['MYSQL_PASSWORD'] = 'Q0c2kkq3QYP1BL8a8shG'
-app.config['MYSQL_DB'] = 'bckottr9vtzfbzggykmv'
+app.config['MYSQL_HOST'] = ''
+app.config['MYSQL_USER'] = ''
+app.config['MYSQL_PASSWORD'] = ''
+app.config['MYSQL_DB'] = ''
 mysql = MySQL(app)
 # settings
 app.secret_key = 'mysecretkey'
